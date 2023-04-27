@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\lotnisko.csproj": {}
+    "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\lotnisko.csproj": {
+    "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\lotnisko.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj",
         "projectName": "lotnisko",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\lotnisko.csproj",
+        "projectPath": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

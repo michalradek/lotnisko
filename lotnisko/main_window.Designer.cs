@@ -28,33 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             dataGridView1 = new DataGridView();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // mySqlCommand1
-            // 
-            mySqlCommand1.CacheAge = 0;
-            mySqlCommand1.Connection = null;
-            mySqlCommand1.EnableCaching = false;
-            mySqlCommand1.Transaction = null;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Location = new Point(13, 20);
+            dataGridView1.Margin = new Padding(4, 5, 4, 5);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(557, 473);
+            dataGridView1.Size = new Size(800, 794);
             dataGridView1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(1019, 664);
+            button1.Name = "button1";
+            button1.Size = new Size(150, 150);
+            button1.TabIndex = 1;
+            button1.Text = "admin";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // main_window
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(827, 497);
+            ClientSize = new Size(1181, 828);
+            Controls.Add(button1);
             Controls.Add(dataGridView1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "main_window";
             Text = "main_window";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -62,8 +69,7 @@
         }
 
         #endregion
-
-        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
         private DataGridView dataGridView1;
+        private Button button1;
     }
 }

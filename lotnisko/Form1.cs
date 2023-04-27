@@ -1,17 +1,12 @@
 using MySql.Data.MySqlClient;
 using System.Diagnostics.Eventing.Reader;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace lotnisko
 {
     public partial class Form1 : Form
     {
-        string login = "";
-        string password = "";
-        string connstring = "datasource=127.0.0.1;port=3306;username=root; database = lotnisko";
-        MySqlConnection conn = new MySqlConnection();
-        MySqlCommand command = new MySqlCommand();
-        MySqlDataReader reader;
-        string query = "";
         public Form1()
         {
             InitializeComponent();
@@ -24,29 +19,34 @@ namespace lotnisko
 
        private void login_void()
         {
-            login = login_textbox.Text;
-            password = password_textbox.Text;
             try
             {
-                using (MySqlConnection conn = new MySqlConnection(connstring))
+                using (MySqlConnection conn = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root; database = lotnisko"))
                 {
                     conn.Open();
-                    query = $"SELECT login,password FROM login WHERE login = '{login}' AND password= '{password}'";
-                    using (MySqlCommand command = new MySqlCommand(query, conn))
+                    using (SHA256 mySHA = SHA256.Create())
                     {
-                        using (reader = command.ExecuteReader())
+                        byte[] hashed_pass = mySHA.ComputeHash(Encoding.UTF8.GetBytes(password_textbox.Text));
+                        string password = BitConverter.ToString(hashed_pass);
+                        password = password.Replace("-", "");
+                        password = password.ToLower();
+                        using (MySqlCommand command = new MySqlCommand($"SELECT id FROM login WHERE login = '{login_textbox.Text}' AND password= '{password}'", conn))
                         {
-                            if(reader.HasRows)
+                            using (MySqlDataReader reader = command.ExecuteReader())
                             {
-                                this.Hide();
-                                main_window main_Window = new main_window();
-                                main_Window.ShowDialog();
-                                this.Close();
+                                if (reader.HasRows)
+                                {
 
-                            }
-                            else
-                            {
-                                MessageBox.Show("There is not any user with this login or password.");
+                                    this.Hide();
+                                    main_window main_Window = new main_window();
+                                    main_Window.ShowDialog();
+                                    this.Close();
+
+                                }
+                                else
+                                {
+                                    MessageBox.Show("There is not any user with this login or password.");
+                                }
                             }
                         }
                     }
@@ -56,26 +56,3 @@ namespace lotnisko
 
     }
 }
-
-
-/*
- 
-
-            MySqlConnection conn = new MySqlConnection(connstring);
-            string query = "select * from logowanie";
-            MySqlCommand command = new MySqlCommand(query, conn);   
-
-            try
-            {
-                conn.Open();
-                MySqlDataReader reader = command.ExecuteReader();
-                if(reader.HasRows)
-                {
-                    while(reader.Read())
-                    {
-                        MessageBox.Show(reader.GetString(0));
-                    }
-                }
-            }catch(Exception ex){ Console.WriteLine(ex); }
- 
- */

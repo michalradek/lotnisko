@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+hc4uiihWzNzI9qHrf/R8rPLC8a/rD8Md/r2W2tiVX1r4mV0RB4sbFyivvA+8LFfEKwg/FU/zhSIroljJun3A==",
+  "dgSpecHash": "X4Y4rN9u1V+7fVVpEEVCxdzwQd1hBuHN+UIxzKoe+svCc74Hq7YkDOjyyi/7E+oNRUcXBxExYgDU/S9k5IVSKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\OneDrive\\Pulpit\\lotnisko\\lotnisko\\lotnisko.csproj",
+  "projectFilePath": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
