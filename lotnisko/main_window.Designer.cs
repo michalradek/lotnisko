@@ -28,21 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            components = new System.ComponentModel.Container();
+            DataGrid = new DataGridView();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            timer1 = new System.Windows.Forms.Timer(components);
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // DataGrid
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(13, 20);
-            dataGridView1.Margin = new Padding(4, 5, 4, 5);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(800, 794);
-            dataGridView1.TabIndex = 0;
+            DataGrid.AllowUserToAddRows = false;
+            DataGrid.AllowUserToDeleteRows = false;
+            DataGrid.AllowUserToResizeColumns = false;
+            DataGrid.AllowUserToResizeRows = false;
+            DataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DataGrid.Location = new Point(13, 20);
+            DataGrid.Margin = new Padding(4, 5, 4, 5);
+            DataGrid.Name = "DataGrid";
+            DataGrid.ReadOnly = true;
+            DataGrid.RowHeadersWidth = 62;
+            DataGrid.RowTemplate.Height = 25;
+            DataGrid.ScrollBars = ScrollBars.Horizontal;
+            DataGrid.ShowCellErrors = false;
+            DataGrid.ShowCellToolTips = false;
+            DataGrid.ShowEditingIcon = false;
+            DataGrid.ShowRowErrors = false;
+            DataGrid.Size = new Size(671, 794);
+            DataGrid.TabIndex = 0;
+            DataGrid.VirtualMode = true;
             // 
             // button1
             // 
@@ -52,24 +66,41 @@
             button1.TabIndex = 1;
             button1.Text = "admin";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            // 
+            // timer1
+            // 
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(691, 20);
+            button2.Name = "button2";
+            button2.Size = new Size(170, 170);
+            button2.TabIndex = 2;
+            button2.Text = "search";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // main_window
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1181, 828);
+            Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            Controls.Add(DataGrid);
             Margin = new Padding(4, 5, 4, 5);
             Name = "main_window";
             Text = "main_window";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DataGrid).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private DataGridView dataGridView1;
+        private DataGridView DataGrid;
         private Button button1;
+        private System.Windows.Forms.Timer timer1;
+        private Button button2;
     }
 }
