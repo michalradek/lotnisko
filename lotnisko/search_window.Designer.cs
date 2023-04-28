@@ -48,13 +48,20 @@
             // 
             // search_data_grid_view
             // 
+            search_data_grid_view.AllowUserToAddRows = false;
+            search_data_grid_view.AllowUserToDeleteRows = false;
+            search_data_grid_view.AllowUserToOrderColumns = true;
+            search_data_grid_view.AllowUserToResizeColumns = false;
+            search_data_grid_view.AllowUserToResizeRows = false;
             search_data_grid_view.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             search_data_grid_view.Location = new Point(12, 385);
             search_data_grid_view.Name = "search_data_grid_view";
+            search_data_grid_view.ReadOnly = true;
             search_data_grid_view.RowHeadersWidth = 62;
             search_data_grid_view.RowTemplate.Height = 33;
             search_data_grid_view.Size = new Size(870, 206);
             search_data_grid_view.TabIndex = 2;
+            search_data_grid_view.VirtualMode = true;
             // 
             // search_button
             // 
@@ -116,6 +123,7 @@
             Controls.Add(search_data_grid_view);
             Controls.Add(search_textbox);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "search_window";
             Text = "search_window";
             ((System.ComponentModel.ISupportInitialize)search_data_grid_view).EndInit();

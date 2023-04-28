@@ -30,7 +30,6 @@
         {
             add_button = new Button();
             delete_button = new Button();
-            update_button = new Button();
             SuspendLayout();
             // 
             // add_button
@@ -41,6 +40,7 @@
             add_button.TabIndex = 0;
             add_button.Text = "Add flight";
             add_button.UseVisualStyleBackColor = true;
+            add_button.Click += add_button_Click;
             // 
             // delete_button
             // 
@@ -50,25 +50,17 @@
             delete_button.TabIndex = 0;
             delete_button.Text = "Delete flight";
             delete_button.UseVisualStyleBackColor = true;
-            // 
-            // update_button
-            // 
-            update_button.Location = new Point(12, 250);
-            update_button.Name = "update_button";
-            update_button.Size = new Size(371, 113);
-            update_button.TabIndex = 0;
-            update_button.Text = "Update flight";
-            update_button.UseVisualStyleBackColor = true;
+            delete_button.Click += delete_button_Click;
             // 
             // admin_window
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(395, 377);
-            Controls.Add(update_button);
+            ClientSize = new Size(395, 258);
             Controls.Add(delete_button);
             Controls.Add(add_button);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "admin_window";
             Text = "admin_window";
             ResumeLayout(false);
@@ -78,6 +70,5 @@
 
         private Button add_button;
         private Button delete_button;
-        private Button update_button;
     }
 }

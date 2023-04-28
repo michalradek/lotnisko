@@ -93,6 +93,7 @@
             Controls.Add(DataGrid);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
             Name = "main_window";
             Text = "main_window";
             ((System.ComponentModel.ISupportInitialize)DataGrid).EndInit();

@@ -16,5 +16,16 @@ namespace lotnisko
         {
             InitializeComponent();
         }
+
+        private void add_button_Click(object sender, EventArgs e)
+        {
+            add_flight_panel addpanel = new add_flight_panel();
+            addpanel.Show();
+        }
+        private void delete_button_Click(object sender, EventArgs e)
+        {
+            delete_flight_panel deletepanel = new delete_flight_panel();
+            deletepanel.Show();
+        }
     }
 }

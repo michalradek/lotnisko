@@ -91,3 +91,5 @@ C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lo
 C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.genruntimeconfig.cache
 C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\ref\lotnisko.dll
 C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.admin_window.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.add_flight_panel.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.delete_flight_panel.resources
