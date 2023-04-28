@@ -13,10 +13,14 @@ namespace lotnisko
 {
     public partial class main_window : Form
     {
-        public main_window()
+        int perm;
+        public main_window(string id)
         {
+            perm = Int32.Parse(id);
             InitializeComponent();
             timer1.Start();
+            if (perm != 1)
+                admin_button.Enabled = false;
         }
         private async void timer1_Tick(object sender, EventArgs e)
         {
@@ -43,7 +47,15 @@ namespace lotnisko
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            search_window swindow = new search_window();
+            swindow.Show();
         }
+
+        private void admin_button_Click(object sender, EventArgs e)
+        {
+            admin_window awindow = new admin_window();
+            awindow.Show();
+        }
+
     }
 }

@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             DataGrid = new DataGridView();
-            button1 = new Button();
+            admin_button = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
@@ -54,18 +54,19 @@
             DataGrid.ShowCellToolTips = false;
             DataGrid.ShowEditingIcon = false;
             DataGrid.ShowRowErrors = false;
-            DataGrid.Size = new Size(671, 794);
+            DataGrid.Size = new Size(876, 794);
             DataGrid.TabIndex = 0;
             DataGrid.VirtualMode = true;
             // 
-            // button1
+            // admin_button
             // 
-            button1.Location = new Point(1019, 664);
-            button1.Name = "button1";
-            button1.Size = new Size(150, 150);
-            button1.TabIndex = 1;
-            button1.Text = "admin";
-            button1.UseVisualStyleBackColor = true;
+            admin_button.Location = new Point(896, 626);
+            admin_button.Name = "admin_button";
+            admin_button.Size = new Size(188, 188);
+            admin_button.TabIndex = 1;
+            admin_button.Text = "admin";
+            admin_button.UseVisualStyleBackColor = true;
+            admin_button.Click += admin_button_Click;
             // 
             // timer1
             // 
@@ -74,9 +75,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(691, 20);
+            button2.Location = new Point(896, 20);
             button2.Name = "button2";
-            button2.Size = new Size(170, 170);
+            button2.Size = new Size(188, 188);
             button2.TabIndex = 2;
             button2.Text = "search";
             button2.UseVisualStyleBackColor = true;
@@ -86,10 +87,11 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1181, 828);
+            ClientSize = new Size(1096, 828);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(admin_button);
             Controls.Add(DataGrid);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Margin = new Padding(4, 5, 4, 5);
             Name = "main_window";
             Text = "main_window";
@@ -99,7 +101,7 @@
 
         #endregion
         private DataGridView DataGrid;
-        private Button button1;
+        private Button admin_button;
         private System.Windows.Forms.Timer timer1;
         private Button button2;
     }

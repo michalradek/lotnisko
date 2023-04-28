@@ -17,7 +17,7 @@ namespace lotnisko
             login_void();
         }
 
-       private void login_void()
+        private void login_void()
         {
             try
             {
@@ -34,11 +34,11 @@ namespace lotnisko
                         {
                             using (MySqlDataReader reader = command.ExecuteReader())
                             {
-                                if (reader.HasRows)
+                                if (reader.Read())
                                 {
 
                                     this.Hide();
-                                    main_window main_Window = new main_window();
+                                    main_window main_Window = new main_window(reader.GetString(0));
                                     main_Window.ShowDialog();
                                     this.Close();
 
@@ -51,7 +51,8 @@ namespace lotnisko
                         }
                     }
                 }
-            } catch (Exception ex) { MessageBox.Show(ex.Message); }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
     }

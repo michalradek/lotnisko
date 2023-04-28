@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj": {}
+    "C:\\Users\\micha\\Desktop\\projekty cv\\lotnisko\\lotnisko\\lotnisko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj": {
+    "C:\\Users\\micha\\Desktop\\projekty cv\\lotnisko\\lotnisko\\lotnisko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Desktop\\projekty cv\\lotnisko\\lotnisko\\lotnisko.csproj",
         "projectName": "lotnisko",
-        "projectPath": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\lotnisko.csproj",
+        "projectPath": "C:\\Users\\micha\\Desktop\\projekty cv\\lotnisko\\lotnisko\\lotnisko.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Desktop\\lotnisko\\lotnisko\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Desktop\\projekty cv\\lotnisko\\lotnisko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",

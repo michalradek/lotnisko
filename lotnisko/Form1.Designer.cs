@@ -46,26 +46,29 @@
             panel1.Controls.Add(password_textbox);
             panel1.Controls.Add(login_textbox);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(12, 12);
+            panel1.Location = new Point(17, 20);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(338, 443);
+            panel1.Size = new Size(483, 738);
             panel1.TabIndex = 0;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(39, 212);
+            label3.Location = new Point(56, 353);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(57, 15);
+            label3.Size = new Size(87, 25);
             label3.TabIndex = 9;
             label3.Text = "Password";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(39, 144);
+            label2.Location = new Point(56, 240);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(37, 15);
+            label2.Size = new Size(56, 25);
             label2.TabIndex = 8;
             label2.Text = "Login";
             // 
@@ -76,9 +79,10 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(39, 307);
+            button1.Location = new Point(56, 512);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(260, 74);
+            button1.Size = new Size(371, 123);
             button1.TabIndex = 7;
             button1.Text = "Log in";
             button1.UseVisualStyleBackColor = false;
@@ -87,39 +91,46 @@
             // password_textbox
             // 
             password_textbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            password_textbox.Location = new Point(39, 230);
+            password_textbox.Location = new Point(56, 383);
+            password_textbox.Margin = new Padding(4, 5, 4, 5);
             password_textbox.Name = "password_textbox";
             password_textbox.PasswordChar = '*';
-            password_textbox.Size = new Size(260, 29);
+            password_textbox.Size = new Size(370, 39);
             password_textbox.TabIndex = 6;
             // 
             // login_textbox
             // 
             login_textbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            login_textbox.Location = new Point(39, 162);
+            login_textbox.Location = new Point(56, 270);
+            login_textbox.Margin = new Padding(4, 5, 4, 5);
             login_textbox.Name = "login_textbox";
-            login_textbox.Size = new Size(260, 29);
+            login_textbox.Size = new Size(370, 39);
             login_textbox.TabIndex = 5;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(129, 62);
+            label1.Location = new Point(184, 103);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(80, 32);
+            label1.Size = new Size(118, 48);
             label1.TabIndex = 4;
             label1.Text = "Log in";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(362, 467);
+            BackColor = Color.Silver;
+            ClientSize = new Size(517, 778);
             Controls.Add(panel1);
+            ForeColor = SystemColors.ActiveCaptionText;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(4, 5, 4, 5);
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Form1";
+            Text = "s";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

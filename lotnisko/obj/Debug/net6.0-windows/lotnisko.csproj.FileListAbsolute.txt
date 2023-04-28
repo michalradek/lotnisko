@@ -58,3 +58,36 @@ C:\Users\micha\Desktop\lotnisko\lotnisko\obj\Debug\net6.0-windows\refint\lotnisk
 C:\Users\micha\Desktop\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.pdb
 C:\Users\micha\Desktop\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.genruntimeconfig.cache
 C:\Users\micha\Desktop\lotnisko\lotnisko\obj\Debug\net6.0-windows\ref\lotnisko.dll
+C:\Users\micha\Desktop\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.search_window.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\lotnisko.exe
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\lotnisko.deps.json
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\lotnisko.runtimeconfig.json
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\lotnisko.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\lotnisko.pdb
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.Form1.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.main_window.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.search_window.resources
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.csproj.GenerateResource.cache
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.AssemblyInfoInputs.cache
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.AssemblyInfo.cs
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.csproj.CopyComplete
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\refint\lotnisko.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.pdb
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.genruntimeconfig.cache
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\ref\lotnisko.dll
+C:\Users\micha\Desktop\projekty cv\lotnisko\lotnisko\obj\Debug\net6.0-windows\lotnisko.admin_window.resources
